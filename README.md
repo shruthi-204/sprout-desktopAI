@@ -1,5 +1,7 @@
 # 🌱 Sprout Desktop
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A tiny pixel-art companion that lives on your desktop.
 
 Sprout is a desktop companion designed to feel less like a traditional productivity app and more like a tiny creature living alongside you while you work.
@@ -53,10 +55,16 @@ Make sure you have Node.js installed. Electron Builder also relies on native bui
 
 ### Installation
 
+Clone the repository:
+
+```bash
+git clone https://github.com/shruthi-204/sprout-desktopAI.git
+```
+
 Navigate into the project:
 
 ```bash
-cd Sprout-desktop
+cd sprout-desktopAI
 ```
 
 Install dependencies:

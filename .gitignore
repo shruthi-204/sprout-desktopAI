@@ -31,3 +31,6 @@ release/
 
 # Unrelated local tool database, not part of this project
 .freebuff/
+
+# Internal AI-session continuity notes, not project documentation
+SPR0UT_RECOVERY.md
