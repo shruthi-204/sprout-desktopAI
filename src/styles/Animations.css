@@ -1,0 +1,68 @@
+.sprout-character {
+  animation: sprout-idle 1.7s steps(2, end) infinite;
+}
+
+.sprout-character:hover {
+  animation: sprout-hover 0.55s steps(3, end) infinite;
+}
+
+.sprout-character.happy {
+  animation: sprout-happy 0.42s steps(3, end) 4;
+}
+
+.sprout-shadow {
+  animation: shadow-breathe 1.7s steps(2, end) infinite;
+}
+
+@keyframes sprout-idle {
+  0%,
+  100% {
+    transform: translateY(0) scaleY(1) rotate(-0.5deg);
+  }
+
+  50% {
+    transform: translateY(-7px) scaleY(0.985) rotate(0.5deg);
+  }
+}
+
+@keyframes shadow-breathe {
+  0%,
+  100% {
+    transform: scaleX(1);
+    opacity: 0.85;
+  }
+
+  50% {
+    transform: scaleX(0.86);
+    opacity: 0.55;
+  }
+}
+
+@keyframes sprout-hover {
+  0%,
+  100% {
+    transform: translateY(-4px) rotate(-1.5deg);
+  }
+
+  50% {
+    transform: translateY(-10px) rotate(1.5deg);
+  }
+}
+
+@keyframes sprout-happy {
+  0% {
+    transform: translateY(0) rotate(0deg) scale(1);
+  }
+
+  45% {
+    transform: translateY(-14px) rotate(-1.5deg) scale(1.015);
+  }
+
+  75% {
+    transform: translateY(-5px) rotate(1.5deg) scale(1.008);
+  }
+
+  100% {
+    transform: translateY(0) rotate(0deg) scale(1);
+  }
+}
